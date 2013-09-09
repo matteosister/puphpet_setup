@@ -40,7 +40,7 @@ apache::vhost { 'viola.dev':
   server_name   => 'viola.dev',
   serveraliases => [
 ],
-  docroot       => '/var/www/',
+  docroot       => '/var/www/web',
   port          => '80',
   env_variables => [
 ],
